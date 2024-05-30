@@ -1,0 +1,58 @@
+body{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: lightblue;
+    display: flex;
+    align-items: center; 
+    justify-content: center;
+}
+
+.container{
+    max-width: 500px;
+    margin: 36px;
+    padding: 20px;
+    background-color: whitesmoke;
+    border-radius: 50px;
+    box-shadow: 0 0 50px rebeccapurple;
+}
+
+.img-title {
+    overflow: hidden;
+}
+
+.img-title img {
+    float: right; 
+    width: 50px; 
+    height: auto;
+}
+
+.img-title h1 {
+    color: darkblue;
+    text-shadow: 2px 2px 2px yellow;
+    text-align: center;
+    font-size: 50px;
+    margin: 0; 
+}
+
+
+select, input, result{
+    width: 90%;
+    padding: 12px;
+    margin: 10px;
+    border: 2px solid slateblue;
+    border-radius: 15px;
+}
+
+button{
+    background-color: slateblue;
+    color: white;
+    padding: 10px;
+    width: 100%;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+button:hover{
+    background-color: rebeccapurple;
+}

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conversión temperatura</title>
+    <link rel="stylesheet" href="/ejercicio.css">
+</head>
+<body>
+
+    <div class="container">
+        <div class="title"> 
+        <h1>Conversión de temperatura</h1>
+        </div>
+        <img class="icon" src="/icon.webp">
+    
+    <label for="fromExercise">De:</label>
+    <select id="fromExercise">
+       <option value="C" >C° Celcius</option>
+       <option value="F" >F° Fahrenheit</option>
+       <option value="K" >K° Kelvin</option>
+    </select>
+
+    <label for="toExercise">A:</label>
+    <select id="toExercise">
+       <option value="C" >C° Celcius</option>
+       <option value="F" >F° Fahrenheit</option>
+       <option value="K" >K° Kelvin</option>
+    </select>
+    <br>
+
+    <label for="temperature">Ingrese la temperatura:</label>
+    <input type="number" id="temperature" placeholder="Ingrese aqui la temperatura">
+    <br>
+    <button onclick="convert()">Convertir</button>
+    <br>
+    <label for="result">Resultado:</label>
+    <input type="text" id="result">
+
+    </div> 
+    <script src="/ejercicio.js"></script>
+</body>
+</html>
